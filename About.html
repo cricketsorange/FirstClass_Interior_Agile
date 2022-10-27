@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <link rel="stylesheet" href="/HTML/bootstrap/css/bootstrap.css">
+  <script src="/HTML/bootstrap/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/b0c991958b.js"></script>
+  
+</head>
+
+<body style="background-color:  antiquewhite;">
+  <section class="container.fluid">
+    <header class="bg-primary">
+      <img src="Images/logo.png" style="margin-top: 50px; margin-left: 645px; width: 135px; height: 135px;">
+      <h1 class="h1" style="margin-top:-100px;">&nbsp;First Class Interiors</h1>
+    </header>
+
+
+    <nav>
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link " href="index.html" target="_blank">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Shop.html" target="_blank">Shop</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="About.html" >About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="ContactUs.html" target="_blank">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main style="padding-left: 15px;">
+
+      <section class="container-fluid col-*-12" style="padding-top: 75px;">
+        <h2 style="text-align: center;" class="text-bg-primary">Meet the Team</h2>
+      </section>
+
+        <section class="container-fluid col-*-12 " style="padding-top: 150px;">
+          <div class="row">
+
+          <div class="col-sm-4">
+              <!--gap before content-->
+            </div>
+
+            <div class="mt-3 col-sm-4" >
+              <div class="card" style="width:780px">
+                <img class="card-img-top" src="/HTML/Images/about4.jpg"  width="100%" style="border-top-left-radius:40%;" id="image" onclick="swapImage();">
+                <div class="card-body" style="border-bottom-right-radius:35%;">
+                  <h3 class="card-title text-bg-secondary" id="name">Rita Iwan</h3>
+                  <p class="card-text"  id="title" style="font-weight:bold; font-size: large; color: rgb(28,180,173)">Chief Executive Officer</p>
+                  <p  class="card-text text-bg-secondary" id="des" style="font-size: 15px; font-weight:bold;">Founding the organisation at a young age of 20, Rita has been in the industry for 15years and is still very passionate about the industry today. She has a love of helping people with creative solutions for their work spaces. She's a keen hiker, nature lover and loves doing this with her husband Rajneel.</p>
+                  <button  type="button" class="btn btn-primary" id="btn" onclick="changeMD();">Switch to MD</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-4">
+              <!--gap after content-->
+            </div>
+          </div>   
+        </section>
+
+
+        <section class="container-fluid col-*-12 " style="padding-top: 120px;">
+          <div class="row">
+            
+            <div class="container mt-3 col-sm-5"  >
+              <div class="card" style="width:750px" id="staff1" onmouseover="showbtn1();" onmouseout="hidebtn1();">
+                <img class="card-img-top" src="/HTML/Images/about1.jpg"  width="100%" style="border-top-left-radius:40%;">
+                <div class="card-body" style="border-bottom-right-radius:35%;">
+                  <h3 class="card-title text-bg-secondary">Rajneel Ram</h3>
+                  <p class="card-text" style="font-weight:bold; font-size: large; color: rgb(28,180,173)">Senior Interior Design & Sales</p>
+                  <p class="card-text text-bg-secondary" style="font-size: 15px; font-weight:bold;">Rajneel earned his Bachelor of Design from AUT "Auckland University of Technology" in 2010 with a major in Spatial design and in Business.
+                    Rajneel loves the arts, whether they are performing or visual, and with 15years of industry experience, Rajneel enjoys doing her own art and makes his deisgns very unique
+                    for each client.</p>
+                    <button  type="button" class="btn btn-primary" id="staffbtn1" onclick="hideStaff1();">Hide team member</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="container mt-3 col-sm-5">
+              <div class="card" style="width:750px" id="staff2" onmouseover="showbtn2();" onmouseout="hidebtn2();">
+                <img class="card-img-top" src="/HTML/Images/about2.png"  width="100%" style="border-top-left-radius:50%;">
+                <div class="card-body" style="border-bottom-right-radius:35%;">
+                  <h3 class="card-title text-bg-secondary">Richard Singh</h3>
+                  <p class="card-text" style="font-weight:bold; font-size: large; color: rgb(28,180,173)">Senior Interior Design Director</p>
+                  <p class="card-text text-bg-secondary" style="font-size: 15px; font-weight:bold;">Richard started of as a chef and transitioned over to interior and graphic design, having graduated from AUT in "Auckland University of Technology" 2010 with a diploma in Applied Interior Design and Culinary Arts.
+                    He considers himself as a creative and visual thinker bringing together aesthetic and function when it comes to designing. He loves watching anime on his down time.</p>
+                    <button  type="button" class="btn btn-primary" id="staffbtn2" onclick="hideStaff2();">Hide team member</button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+
+      <section class="container-fluid row col-*-12" style="padding-top: 120px;">
+               
+        <div class="container mt-3 col-sm-5" >
+          <div class="card" style="width:780px" id="staff3" onmouseover="showbtn3();" onmouseout="hidebtn3();">
+            <img class="card-img-top" src="/HTML/Images/about7.jpg" alt=""  width="100%" style="border-top-left-radius:50%;">
+            <div class="card-body" style="border-bottom-right-radius:35%;">
+              <h3 class="card-title text-bg-secondary">Omar Al-Hashimi</h3>
+              <p class="card-text" style="font-weight:bold; font-size: large; color: rgb(28,180,173)">Customer Liasian & Sales</p>
+              <p class="card-text text-bg-secondary" style="font-size: 15px; font-weight:bold;">Omar is great with people and full of energy which makes him an amazing liasian to our clients. Omar was a personal trainer prior to joining the interior design industry.
+                 Omar's depth of customer service experience and incredible leadership, ensures First Class Interiors' studio is expertly run, that our clients are well looked after, and our clients projects are delivered on time.</p>
+                 <button  type="button" class="btn btn-primary" id="staffbtn3" onclick="hideStaff3();">Hide team member</button>
+            </div>
+          </div>
+        </div>  
+
+
+        <div class="container mt-3 col-sm-5" >
+          <div class="card" style="width:700px" id="staff4" onmouseover="showbtn4();" onmouseout="hidebtn4();">
+            <img class="card-img-top" src="/HTML/Images/about5.jpg"  width="100%" style="border-top-left-radius:50%;">
+            <div class="card-body" style="border-bottom-right-radius:35%;">
+              <h3 class="card-title text-bg-secondary">Serena Monks</h3>
+              <p class="card-text" style="font-weight:bold; font-size: large; color: rgb(28,180,173)">Accounts</p>
+              <p class="card-text text-bg-secondary" style="font-size: 15px; font-weight:bold; padding-bottom: 45px">Serena has known Richard since 2011 and as First Class Interiors grew, an opportunity rose for Serena to be part of the team. She now keeps on top of our accounts.
+                 Serena is passionate about anime, gaming and collecting soft toys - especially Pikachu!</p>
+                 <button  type="button"  class="btn btn-primary" id="staffbtn4" onclick="hideStaff4();">Hide team member</button>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+
+      <section class="container-fluid row col-*-12" style="padding-top: 120px;">
+        <div class="container mt-3 col-sm-5">
+          <div class="card" style="width:820px" id="staff5" onmouseover="showbtn5();" onmouseout="hidebtn5();">
+            <img class="card-img-top" src="/HTML/Images/about3.png"  width="100%" style="border-top-left-radius:50%;">
+            <div class="card-body" style="border-bottom-right-radius:35%;">
+              <h3 class="card-title text-bg-secondary">Parween Metzler</h3>
+              <p class="card-text" style="font-weight:bold; font-size: large; color: rgb(28,180,173)">Marketing</p>
+              <p class="card-text text-bg-secondary" style="font-size: 15px; font-weight:bold;">Fitness is in Parween's blood. Growing up in a family deeply involved in the sporting,
+                Parween brings life to the team and the day is always better when she brings her optimism and glow into the office. 
+                Being in charge of all things marketing, bringing a powerful depth of experience and insight to the long term vision and visibility of First Class Interiors .</p>
+                <button  type="button" class="btn btn-primary" id="staffbtn5" onclick="hideStaff5();">Hide team member</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6"></div>
+      
+      </section>
+       
+    </main>
+
+    <footer class="text-center" style="background-color: rgb(28, 180,173); position: relative; margin-top: 10%;">
+      <div class="container pt-4">
+        <section class="mb-4">
+          <a class="btni btn-link btn-floating btn-lg text-dark m-1"  href="https://www.facebook.com" target="_blank">
+            <i  style="font-size: 25px;" class="fa-brands fa-facebook"></i></a>
+    
+          <a class="btni btn-link btn-floating btn-lg text-dark m-1" href="https://www.instagram.com" target="_blank">
+            <i  style="font-size: 25px;" class="fa-brands fa-instagram"></i></a>
+            
+          <a class="btni btn-link btn-floating btn-lg text-dark m-1" href="https://www.linkedin.com" target="_blank">
+            <i  style="font-size: 25px;" class="fa-brands fa-linkedin"></i></a>
+    
+          <a class="btni btn-link btn-floating btn-lg text-dark m-1" href="https://twitter.com/" target="_blank">
+            <i  style="font-size: 25px;" class="fa-brands fa-twitter"></i></a>
+        </section>
+      </div>
+    
+      <div class="text-center text-dark p-3" style="background-color:  rgb(28, 180,173);">
+        <p style="font-weight:bold">Copyright&copy; <script> document.write(new Date().getFullYear());</script>, First Class Interiors </p>
+            <p style="font-weight:bold">All Rights Reserved</p><br>
+            <p style="font-weight:bold">Website developed by Accenture</p>
+      </div>
+    </footer>
+  </section> 
+
+  <script type="text/javascript">
+      function swapImage(){
+      if (document.getElementById("image").src.endsWith('about4.jpg') == true)
+      { 
+            document.getElementById("image").src = "mdimage.jpg"; 
+
+        }
+      }
+
+    function changeMD(){
+      var CEO_name = document.getElementById("name");
+      var CEO_title = document.getElementById("title");
+      var CEO_image = document.getElementById("image");
+      var CEO_description = document.getElementById("des");
+      var CEO_button = document.getElementById("btn");
+
+      // CEO_name.innerHTML = "Audrey Singh";
+      // CEO_title.innerHTML = "Managing Director";
+      // CEO_image.src = "Images/mdimage.jpg";
+      // CEO_description.innerHTML = "Audrey has implemented designs for well over 100's of venues from Hospitality to commericial and even family homes. Audrey has been in the interior design industry for 11 years now. Many of the country's top operators turn to her for her unique ideas and knowledge resulting in a deep, instrinsic trust between client and organisation.";
+      // CEO_button.innerHTML = "Switch to CEO";
+
+      if(CEO_name.textContent == "Rita Iwan")
+        {
+          CEO_name.innerHTML = "Audrey Singh";
+          CEO_title.innerHTML = "Managing Director";
+          CEO_image.src = "Images/mdimage.jpg";
+          CEO_description.innerHTML = "Audrey has implemented designs for well over 100's of venues from Hospitality to commericial and even family homes. Audrey has been in the interior design industry for 11 years now. Many of the country's top operators turn to her for her unique ideas and knowledge resulting in a deep, instrinsic trust between client and organisation.";
+          CEO_button.innerHTML = "Switch to CEO";
+        }
+
+      else 
+        {
+          CEO_name.innerHTML = "Rita Iwan";
+          CEO_title.innerHTML = "Chief Executive Officer";
+          CEO_image.src = "Images/about4.jpg";
+          CEO_description.innerHTML = "Founding the organisation at a young age of 20, Rita has been in the industry for 15years and is still very passionate about the industry today. She has a love of helping people with creative solutions for their work spaces. She's a keen hiker, nature lover and loves doing this with her husband Rajneel.";
+          CEO_button.innerHTML = "Switch to MD";
+        }
+    }
+      function hideStaff1(){
+        var staff = document.getElementById("staff1");
+        staff.style.visibility = "hidden";
+      }
+      function showbtn1(){
+        var staffbtn1 = document.getElementById("staffbtn1");
+        console.log("button shown!");
+        staffbtn1.style.visibility= "visible";
+      }
+      function hidebtn1(){
+        var staffbtn1 = document.getElementById("staffbtn1");
+        console.log("button hidden!");
+        staffbtn1.style.visibility = "hidden";
+      } 
+      /*---------------staff 1----------*/
+
+      function hideStaff2(){
+        var staff = document.getElementById("staff2");
+        staff.style.visibility = "hidden";
+      }
+      function showbtn2(){
+        var staffbtn2 = document.getElementById("staffbtn2");
+        console.log("button shown!");
+        staffbtn2.style.visibility= "visible";
+      }
+      function hidebtn2(){
+        var staffbtn2 = document.getElementById("staffbtn2");
+        console.log("button hidden!");
+        staffbtn2.style.visibility = "hidden";
+      } 
+      /*-------------staff 2------------*/
+
+      function hideStaff3(){
+        var staff = document.getElementById("staff3");
+        staff.style.visibility = "hidden";
+      }
+      function showbtn3(){
+        var staffbtn3 = document.getElementById("staffbtn3");
+        console.log("button shown!");
+        staffbtn3.style.visibility= "visible";
+      }
+      function hidebtn3(){
+        var staffbtn3 = document.getElementById("staffbtn3");
+        console.log("button hidden!");
+        staffbtn3.style.visibility = "hidden";
+      } 
+      /*-------------staff 3------------*/
+
+      function hideStaff4(){
+        var staff = document.getElementById("staff4");
+        staff.style.visibility = "hidden";
+      }
+      function showbtn4(){
+        var staffbtn4 = document.getElementById("staffbtn4");
+        console.log("button shown!");
+        staffbtn4.style.visibility= "visible";
+      }
+      function hidebtn4(){
+        var staffbtn4 = document.getElementById("staffbtn4");
+        console.log("button hidden!");
+        staffbtn4.style.visibility = "hidden";
+      } 
+      /*-------------staff 4------------*/
+      
+      function hideStaff5(){
+        var staff = document.getElementById("staff5");
+        staff.style.visibility = "hidden";
+      }
+      function showbtn5(){
+        var staffbtn5 = document.getElementById("staffbtn5");
+        console.log("button shown!");
+        staffbtn5.style.visibility= "visible";
+      }
+      function hidebtn5(){
+        var staffbtn5 = document.getElementById("staffbtn5");
+        console.log("button hidden!");
+        staffbtn5.style.visibility = "hidden";
+      } 
+      /*-------------staff 5------------*/
+
+  </script>
+
+</body>
+</html>
+
+
+            
